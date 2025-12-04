@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTituloYoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yoga básico"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <!-- Paso 1 -->
+    <TextView
+        android:id="@+id/paso1Yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Postura del árbol: mantener el equilibrio 1 minuto por pierna"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <!-- Paso 2 -->
+    <TextView
+        android:id="@+id/paso2Yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Postura del perro boca abajo: mantener 2 minutos"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <!-- Paso 3 -->
+    <TextView
+        android:id="@+id/paso3Yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Postura del niño: relajarse durante 3 minutos"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <!-- Imagen -->
+    <ImageView
+        android:id="@+id/imgYoga"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/yoga"
+     />
+
+</LinearLayout>

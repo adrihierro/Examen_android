@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resistencia básica"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/paso1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 10 Flexiones"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <!-- Paso 2 -->
+    <TextView
+        android:id="@+id/paso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 3 series de planchas de 5 minutos"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/paso3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 2 series de 20 sentadillas"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+
+    <ImageView
+        android:id="@+id/imgResistencia"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/resistencia_exam"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+
+
+</LinearLayout>
